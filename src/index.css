@@ -78,7 +78,7 @@
     --border: 217 33% 20%;
   }
 
-  * padding{
+  * {
     @apply border-border;
 
   }
@@ -93,9 +93,9 @@
 
 @utility container {
   margin-inline: auto;
-  padding: 2rem;
+  padding-inline: 2rem;
 
-  @media (width>=640px) {
+  @media (width >= 640px) {
     max-width: 640px;
   }
   @media (width >= 768px) {
@@ -123,7 +123,7 @@
 
 @utility gradient-border {
   @apply relative rounded-md;
-  background: liner-gradient(to rigth, hsl(var(--card)), hsl(var(--card)));
+  background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
   background-clip: padding-box;
   border: 1px solid transparent;
 }
