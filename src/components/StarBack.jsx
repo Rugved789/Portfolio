@@ -18,6 +18,7 @@ const StarBack = () => {
         generateStars();
     }
 
+    window.addEventListener("resize",handleResize)
     const newStars = [];
 
     for (let i = 0; i < numbersofStars; i++) {
