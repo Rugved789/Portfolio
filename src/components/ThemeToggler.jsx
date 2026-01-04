@@ -45,8 +45,9 @@ export default function ThemeToggler() {
       onClick={toggleTheme}
       aria-label="Toggle theme"
       className={cn(
-        "fixed max-sm:hidden top-4.5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
-        "focus:outline-hidden cursor-pointer"
+        "fixed z-50 p-2 rounded-full transition-colors duration-300",
+        "top-5 right-20 sm:right-4",
+        "focus:outline-none cursor-pointer"
       )}
     >
       {isDark ? (

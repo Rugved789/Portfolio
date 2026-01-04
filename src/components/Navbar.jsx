@@ -5,8 +5,8 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
-  { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
+  { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -47,7 +47,7 @@ const Navbar = () => {
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="text-foreground/80 hover:text-primary transition-colors duration-500"
             >
               {item.name}
             </a>
