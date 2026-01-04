@@ -1,5 +1,5 @@
 import { BrowserRouter, Route ,Routes } from "react-router-dom";
-import NotFound from "./Pages/Notfound";
+import NotFound from "./Pages/NotFound";
 import Home from "./Pages/Home";
 import './notfound.css'
 

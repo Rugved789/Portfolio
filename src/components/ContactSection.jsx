@@ -11,7 +11,7 @@ import { cn } from "../lib/utlis";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-24 px-4 relative b-secondary/30">
+    <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Get In <span className="text-primary">Touch</span>
@@ -19,7 +19,7 @@ const ContactSection = () => {
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Have a project in mind or want to collaborate? Feel free to reach out.
-          I'am always open to discussing new opportunites
+          I'm always open to discussing new opportunities.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -64,9 +64,9 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <a className="text-muted-foreground hover:text-primary transition-colors">
+                  <p className="text-muted-foreground hover:text-primary transition-colors">
                     India, Maharashtra, Nagpur
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -77,15 +77,17 @@ const ContactSection = () => {
                 <a
                   href="https://www.linkedin.com/in/rugved-gadge-466376284/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
+                <a href="#" target="_blank" rel="noopener noreferrer">
                   <Twitter />
                 </a>
                 <a
                   href="https://www.instagram.com/rugved_gadge"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Instagram />
                 </a>
@@ -108,7 +110,7 @@ const ContactSection = () => {
                   id="name"
                   name="name"
                   required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
+                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
                   placeholder="Rugved Gadge..."
                 />
               </div>
@@ -124,7 +126,7 @@ const ContactSection = () => {
                   id="email"
                   name="email"
                   required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
+                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
                   placeholder="your_email@gmail.com"
                 />
               </div>
@@ -139,7 +141,7 @@ const ContactSection = () => {
                   id="message"
                   name="message"
                   required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
+                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none"
                   placeholder="Hello, I'd like to talk about..."
                 />
               </div>

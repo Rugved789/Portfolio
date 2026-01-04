@@ -3,7 +3,7 @@ import { Briefcase, Code, User } from "lucide-react";
 const AboutMe = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
-      <div className="conatiner mx-auto max-w-5xl">
+      <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About <span className="text-primary">Me</span>
         </h2>
@@ -64,7 +64,7 @@ const AboutMe = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UIUX Design</h4>
+                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground">
                     Designing intuitive user interfaces and seamless user
                     experiences.
@@ -79,9 +79,9 @@ const AboutMe = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Managment</h4>
+                  <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
-                    I manage projects with a structured approach planning, execution, and continuous improvement ensuring timely delivery and scalable solutions.
+                    I manage projects with a structured approach: planning, execution, and continuous improvement ensuring timely delivery and scalable solutions.
                   </p>
                 </div>
               </div>

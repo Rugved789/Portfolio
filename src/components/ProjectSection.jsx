@@ -18,7 +18,7 @@ const projects = [
     title: "DevShare: Seamless Code Sharing & Execution",
     description:
       "DevShare is a real-time code collaboration platform that enables developers to share, edit, and execute code simultaneously with live output and chat-style history.",
-    image: "./projects/project2.jpeg",
+    image: "/projects/project2.jpeg",
     tags: ["React", "Node.js", "Socket.io", "Piston API"],
     deployment: "",
     github: "https://github.com/Rugved789/DevShare-Real-Time-Code-Share",
@@ -37,10 +37,10 @@ const ProjectSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, key) => {
+          {projects.map((project) => {
             return (
               <div
-                key={key}
+                key={project.id}
                 className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col"
               >
                 <div className="h-48 overflow-hidden">
@@ -54,7 +54,7 @@ const ProjectSection = () => {
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map((tag) => {
                       return (
-                        <span className="px-4 py-2 text-xs font-medium rounded-full bg-primary/20 text-secondary-foreground border">
+                        <span key={tag} className="px-4 py-2 text-xs font-medium rounded-full bg-primary/20 text-secondary-foreground border">
                           {tag}
                         </span>
                       );
@@ -69,16 +69,25 @@ const ProjectSection = () => {
 
                   <div className="flex justify-end items-center mt-auto">
                     <div className="flex space-x-3">
-                      <a
-                        href={project.deployment}
-                        target="_blank"
-                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                      >
-                        <ExternalLink size={20} />
-                      </a>
+                      {project.deployment ? (
+                        <a
+                          href={project.deployment}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                        >
+                          <ExternalLink size={20} />
+                        </a>
+                      ) : (
+                        <span className="text-foreground/40">
+                          <ExternalLink size={20} />
+                        </span>
+                      )}
+
                       <a
                         href={project.github}
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       >
                         <Github size={20} />
@@ -94,6 +103,7 @@ const ProjectSection = () => {
           <a
             href="https://github.com/Rugved789"
             target="_blank"
+            rel="noopener noreferrer"
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
           >
             Check My Github <ArrowRight size={18} />
