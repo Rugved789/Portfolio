@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="py-12 px-4 bg-card relative border-t border-border mt-12 pt-8 flex flex-wrap items-center justify-center gap-5">
         <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Rugved Gadge.co., All rights reserved.
+            &copy; {new Date().getFullYear()} Rugved Gadge , All rights reserved.
         </p>
 
 

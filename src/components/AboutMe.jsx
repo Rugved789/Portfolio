@@ -14,8 +14,7 @@ const AboutMe = () => {
               impactful web experiences.
             </h3>
 
-            <p className="text-muted-foreground">
-              {" "}
+            <p className="text-muted-foreground text-justify">
               I design and develop modern, scalable web applications with a
               strong focus on performance, usability, and clean code. From
               crafting intuitive user interfaces to implementing efficient
@@ -23,7 +22,7 @@ const AboutMe = () => {
               stack.
             </p>
 
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-justify">
              I have hands-on experience with the MERN stack, DBMS, and blockchain basics, and I actively practice data structures and problem-solving. I enjoy learning new technologies and building real-world projects.
             </p>
 
