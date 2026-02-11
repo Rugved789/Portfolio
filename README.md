@@ -17,5 +17,3 @@ Live demo: https://portfolio-six-sable-wvf2003v47.vercel.app/
 - React
 - Tailwind CSS
 
-Enjoy — update the demo link and project description as needed.
-
