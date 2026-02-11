@@ -6,7 +6,7 @@ const projects = [
     title: "A Decentralized File Sharing DApp",
     description:
       "MetaDrive is a decentralized file storage and sharing platform that allows users to upload files and securely control access using blockchain technology.",
-    image: "/projects/project1.png",
+    image: "/projects/MetaDrive_logo.png",
     tags: ["React", "Ether.js", "Solidity"],
     deployment:
       "https://meta-drive-git-master-rugvedgadge789-8111s-projects.vercel.app?_vercel_share=XcVsuqGqq04RezsvN62lEO9wtL6OLFw2",
@@ -18,7 +18,7 @@ const projects = [
     title: "DevShare: Seamless Code Sharing & Execution",
     description:
       "DevShare is a real-time code collaboration platform that enables developers to share, edit, and execute code simultaneously with live output and chat-style history.",
-    image: "/projects/project2.jpeg",
+    image: "/projects/DevShare_logo.png",
     tags: ["React", "Node.js", "Socket.io", "Piston API"],
     deployment: "",
     github: "https://github.com/Rugved789/DevShare-Real-Time-Code-Share",
