@@ -3,18 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "AI-Driven Full-Stack SaaS Platform",
+    description:
+      "An AI-powered SaaS platform that enables users to generate, analyze, and manage content intelligently using modern machine learning APIs. The platform supports user authentication, subscription-based access, real-time processing, and scalable cloud deployment, delivering a seamless and personalized user experience.",
+    image: "/projects/Agris_Ai.png",
+    tags: ["React", "Node.js", "Express", "PostgreSQL", "OpenAI API", "Stripe"],
+    deployment:
+      "",
+    github:
+      "https://github.com/Rugved789/Igris-AI-An-AI-Driven-Full-Stack-SaaS-Platform.git",
+  },
+  {
+    id: 2,
     title: "A Decentralized File Sharing DApp",
     description:
       "MetaDrive is a decentralized file storage and sharing platform that allows users to upload files and securely control access using blockchain technology.",
     image: "/projects/MetaDrive_logo.png",
-    tags: ["React", "Ether.js", "Solidity"],
+    tags: ["React", "Ether.js", "Solidity","MetaMask","Pinata"],
     deployment:
       "https://meta-drive-git-master-rugvedgadge789-8111s-projects.vercel.app?_vercel_share=XcVsuqGqq04RezsvN62lEO9wtL6OLFw2",
     github:
       "https://github.com/Rugved789/MetaDrive-Decentralized-File-Sharing-dApp",
   },
   {
-    id: 2,
+    id: 3,
     title: "DevShare: Seamless Code Sharing & Execution",
     description:
       "DevShare is a real-time code collaboration platform that enables developers to share, edit, and execute code simultaneously with live output and chat-style history.",
@@ -54,7 +66,10 @@ const ProjectSection = () => {
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map((tag) => {
                       return (
-                        <span key={tag} className="px-4 py-2 text-xs font-medium rounded-full bg-primary/20 text-secondary-foreground border">
+                        <span
+                          key={tag}
+                          className="px-4 py-2 text-xs font-medium rounded-full bg-primary/20 text-secondary-foreground border"
+                        >
                           {tag}
                         </span>
                       );
