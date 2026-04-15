@@ -7,7 +7,7 @@ const projects = [
     description:
       "An AI-powered SaaS platform that enables users to generate, analyze, and manage content intelligently using modern machine learning APIs. The platform supports user authentication, subscription-based access, real-time processing, and scalable cloud deployment, delivering a seamless and personalized user experience.",
     image: "/projects/Agris_Ai.png",
-    tags: ["React", "Node.js", "Express", "PostgreSQL", "OpenAI API", "Stripe"],
+    tags: ["React", "Node.js", "Express", "PostgreSQL", "OpenAI API", "Clerk"],
     deployment:
       "",
     github:
