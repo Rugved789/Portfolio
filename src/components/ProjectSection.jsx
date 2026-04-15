@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "AI-Driven Full-Stack SaaS Platform",
     description:
-      "An AI-powered SaaS platform that enables users to generate, analyze, and manage content intelligently using modern machine learning APIs. The platform supports user authentication, subscription-based access, real-time processing, and scalable cloud deployment, delivering a seamless and personalized user experience.",
+      "A full-stack AI SaaS platform enabling smart content creation, user management, and scalable cloud-based services.",
     image: "/projects/Agris_Ai.png",
     tags: ["React", "Node.js", "Express", "PostgreSQL", "OpenAI API", "Clerk"],
     deployment:
