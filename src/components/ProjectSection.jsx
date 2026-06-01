@@ -9,7 +9,7 @@ const projects = [
     image: "/projects/Agris_Ai.png",
     tags: ["React", "Node.js", "Express", "PostgreSQL", "OpenAI API", "Clerk"],
     deployment:
-      "https://igris-ai-blond.vercel.app/",
+      "https://igris-ai-an-ai-driven-full-stack-sa.vercel.app/",
     github:
       "https://github.com/Rugved789/Igris-AI-An-AI-Driven-Full-Stack-SaaS-Platform.git",
   },
